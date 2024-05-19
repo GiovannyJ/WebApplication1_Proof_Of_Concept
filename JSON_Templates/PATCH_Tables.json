@@ -1,0 +1,7 @@
+{
+  "tablename": "businesses",
+  "columnsold": [ "businessid" ],
+  "valuesold": [ 123 ],
+  "columnsnew": [ "businessname" ],
+  "valuesnew": [ "NEWBUSINESSNAME" ]
+}
