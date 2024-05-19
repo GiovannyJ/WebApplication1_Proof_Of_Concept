@@ -77,7 +77,7 @@ namespace WebApplication1_Proof_Of_Concept.Controllers
         /// Gets all businesses owned by users from the database.
         /// </summary>
         /// <returns>A list of user owned businesses.</returns>
-        [HttpGet("{USERID}")]
+        [HttpGet]
         [ProducesResponseType(typeof(List<UserOwnedBusiness>), 200)]
         [ProducesResponseType(500)]
         public IActionResult GetUsersBusinesses([FromRoute] int USERID)
